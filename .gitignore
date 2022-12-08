@@ -1,3 +1,11 @@
+# Targets
+web/
+ios/
+android/
+macos/
+windows/
+linux/
+
 # Miscellaneous
 *.class
 *.log
