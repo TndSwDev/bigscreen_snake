@@ -4,13 +4,10 @@
 
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+<svg version="1.0"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900.000000 579.000000" preserveAspectRatio="xMidYMid meet">
 
- width="900.000000pt" height="579.000000pt" viewBox="0 0 900.000000 579.000000"
-
- preserveAspectRatio="xMidYMid meet">
-
-<path fill="#212025" stroke="none" d="
+    <path fill="#212025" stroke="none" d="
 M7 522
 
 C6 271 7 152 9 150
@@ -55,7 +52,7 @@ Z
 
 "/>
 
-<path fill="#3c3b43" stroke="none" d="
+    <path fill="#3c3b43" stroke="none" d="
 M7 522
 
 C6 271 7 152 9 150
@@ -1752,7 +1749,7 @@ Z
 
 "/>
 
-<path fill="#4e4f5c" stroke="none" d="
+    <path fill="#4e4f5c" stroke="none" d="
 M7 522
 
 C6 271 7 152 9 150
@@ -4453,7 +4450,7 @@ Z
 
 "/>
 
-<path fill="#5f5b74" stroke="none" d="
+    <path fill="#5f5b74" stroke="none" d="
 M7 577
 
 C7 575 7 501 7 412
@@ -7300,7 +7297,7 @@ Z
 
 "/>
 
-<path fill="#64736a" stroke="none" d="
+    <path fill="#64736a" stroke="none" d="
 M12 562
 
 L12 545
@@ -10765,7 +10762,7 @@ Z
 
 "/>
 
-<path fill="#6d6986" stroke="none" d="
+    <path fill="#6d6986" stroke="none" d="
 M13 577
 
 C13 576 13 569 12 560
@@ -14996,7 +14993,7 @@ Z
 
 "/>
 
-<path fill="#748d7f" stroke="none" d="
+    <path fill="#748d7f" stroke="none" d="
 M13 506
 
 C13 465 13 426 13 419
@@ -19015,7 +19012,7 @@ Z
 
 "/>
 
-<path fill="#7f7b87" stroke="none" d="
+    <path fill="#7f7b87" stroke="none" d="
 M13 506
 
 C13 465 13 426 13 419
@@ -23068,7 +23065,7 @@ Z
 
 "/>
 
-<path fill="#787799" stroke="none" d="
+    <path fill="#787799" stroke="none" d="
 M16 577
 
 C16 574 16 556 16 544
@@ -26635,7 +26632,7 @@ Z
 
 "/>
 
-<path fill="#8585a5" stroke="none" d="
+    <path fill="#8585a5" stroke="none" d="
 M16 577
 
 C16 574 16 556 16 544
@@ -29984,7 +29981,7 @@ Z
 
 "/>
 
-<path fill="#88a998" stroke="none" d="
+    <path fill="#88a998" stroke="none" d="
 M16 564
 
 C16 550 16 533 14 515
@@ -33163,7 +33160,7 @@ Z
 
 "/>
 
-<path fill="#8e90ae" stroke="none" d="
+    <path fill="#8e90ae" stroke="none" d="
 M16 564
 
 C16 550 16 533 14 515
@@ -36560,7 +36557,7 @@ Z
 
 "/>
 
-<path fill="#9898a4" stroke="none" d="
+    <path fill="#9898a4" stroke="none" d="
 M16 577
 
 C17 575 17 552 16 549
@@ -40115,7 +40112,7 @@ Z
 
 "/>
 
-<path fill="#ad9a8f" stroke="none" d="
+    <path fill="#ad9a8f" stroke="none" d="
 M17 566
 
 C17 558 17 550 16 548
@@ -43610,7 +43607,7 @@ Z
 
 "/>
 
-<path fill="#989bb7" stroke="none" d="
+    <path fill="#989bb7" stroke="none" d="
 M17 566
 
 C17 558 17 550 16 548
@@ -47071,7 +47068,7 @@ Z
 
 "/>
 
-<path fill="#99beac" stroke="none" d="
+    <path fill="#99beac" stroke="none" d="
 M18 577
 
 C18 574 17 559 17 545
@@ -50556,7 +50553,7 @@ Z
 
 "/>
 
-<path fill="#b3aea8" stroke="none" d="
+    <path fill="#b3aea8" stroke="none" d="
 M18 577
 
 C18 574 17 559 17 545
@@ -53953,7 +53950,7 @@ Z
 
 "/>
 
-<path fill="#a4a8bd" stroke="none" d="
+    <path fill="#a4a8bd" stroke="none" d="
 M18 577
 
 C18 574 17 559 17 545
@@ -57402,7 +57399,7 @@ Z
 
 "/>
 
-<path fill="#b0b5c5" stroke="none" d="
+    <path fill="#b0b5c5" stroke="none" d="
 M20 577
 
 C19 577 19 575 19 574
@@ -60843,7 +60840,7 @@ Z
 
 "/>
 
-<path fill="#bbbdb9" stroke="none" d="
+    <path fill="#bbbdb9" stroke="none" d="
 M21 571
 
 C21 566 21 562 21 562
@@ -63938,7 +63935,7 @@ Z
 
 "/>
 
-<path fill="#acd0bc" stroke="none" d="
+    <path fill="#acd0bc" stroke="none" d="
 M21 571
 
 C21 566 21 562 21 562
@@ -66943,7 +66940,7 @@ Z
 
 "/>
 
-<path fill="#afc8db" stroke="none" d="
+    <path fill="#afc8db" stroke="none" d="
 M21 571
 
 C21 566 21 562 21 562
@@ -69950,7 +69947,7 @@ Z
 
 "/>
 
-<path fill="#c1c7d3" stroke="none" d="
+    <path fill="#c1c7d3" stroke="none" d="
 M21 571
 
 C21 566 21 562 21 562
@@ -72933,7 +72930,7 @@ Z
 
 "/>
 
-<path fill="#bedfcc" stroke="none" d="
+    <path fill="#bedfcc" stroke="none" d="
 M24 578
 
 C24 578 24 577 24 576
@@ -75522,7 +75519,7 @@ Z
 
 "/>
 
-<path fill="#dee3e7" stroke="none" d="
+    <path fill="#dee3e7" stroke="none" d="
 M24 578
 
 C24 578 24 577 24 576
@@ -76469,7 +76466,7 @@ Z
 
 "/>
 
-<path fill="#f7f8f7" stroke="none" d="
+    <path fill="#f7f8f7" stroke="none" d="
 M137 575
 
 C137 573 137 571 136 571
