@@ -204,16 +204,16 @@ class SnakeGame extends FlameGame with HasCollisionDetection, KeyboardEvents {
 
   @override
   KeyEventResult onKeyEvent(RawKeyEvent event, Set<LogicalKeyboardKey> keysPressed) {
-    if (event.character == 'a') {
+    if (event.character == 'a' || event.logicalKey == LogicalKeyboardKey.arrowLeft) {
       directionH = -1;
       directionV = 0;
-    } else if (event.character == 'd') {
+    } else if (event.character == 'd' || event.logicalKey == LogicalKeyboardKey.arrowRight) {
       directionH = 1;
       directionV = 0;
-    } else if (event.character == 'w') {
+    } else if (event.character == 'w' || event.logicalKey == LogicalKeyboardKey.arrowUp) {
       directionH = 0;
       directionV = -1;
-    } else if (event.character == 's') {
+    } else if (event.character == 's' || event.logicalKey == LogicalKeyboardKey.arrowDown) {
       directionH = 0;
       directionV = 1;
     }
@@ -228,5 +228,29 @@ class SnakeGame extends FlameGame with HasCollisionDetection, KeyboardEvents {
 
   void gameOver() {
     pauseEngine();
+    Future.delayed(const Duration(seconds: 3)).then((_) {
+      _restart();
+    });
+  }
+
+  void _restart() {
+    directionH = 1;
+    directionV = 0;
+    snakeHeadX = _gridSize / 2;
+    snakeHeadY = _gridSize / 2;
+    timeFromStart = 0.0;
+    timeAtSnakeMove = 1.0;
+    stepWithoutFood = true;
+    speed = 0.4;
+    for (final snakePart in snakeParts) {
+      snakePart.dispose();
+    }
+    snakeParts.clear();
+    moveSnakeHead();
+    moveSnakeHead();
+    moveSnakeHead();
+    moveSnakeHead();
+    addFood();
+    resumeEngine();
   }
 }
